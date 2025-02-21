@@ -13,7 +13,7 @@
   
      <div class="container ">
         <div class="row">
-            <div class="col s12">
+            <div class="col -12">
                 <h1>AJOUTER UN ETUDIANT LARAVEL-10</h1>
                 <hr>
                      @if (session('status'))

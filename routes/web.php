@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EtudiantController;
 
-
+Route::get('/',function (){
+    return view('welcome');
+});
 
 Route::get('/delete-etudiant/{id}',[EtudiantController::class, 'delete_etudiant']);
 Route::get('/update-etudiant/{id}',[EtudiantController::class, 'update_etudiant']);
